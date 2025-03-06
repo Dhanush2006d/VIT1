@@ -1,11 +1,11 @@
-const container = document.getElementById('container');
+const login_container = document.getElementById('login-container');
 const registerBtn = document.getElementById('register');
 const loginBtn = document.getElementById('login');
 
 registerBtn.addEventListener('click', () => {
-    container.classList.add("active");
+    login_container.classList.add("active");
 });
 
 loginBtn.addEventListener('click', () => {
-    container.classList.remove("active");
+    login_container.classList.remove("active");
 });
